@@ -11,7 +11,7 @@ Create a small web application that can access an external service to retrieve s
 - The app should display all inputs, all buttons, and the table upon load. The table should start empty.
 - The table should have columns for the stock symbol, the price, and the GMT date and time the price was retrieved.
 - The external service to access is:
-    - http://candidateservices.southcentralus.cloudapp.azure.com/randomQuote/quote?symb ols=&lt;symbols go hereid&gt;
+    - http://candidateservices.southcentralus.cloudapp.azure.com/randomQuote/quote?symb ols=&lt;symbols go here&gt;
 - The app should contain these buttons and inputs:
     - A text input that will hold input of a comma-delimited list of stock symbols.
     - An update button that will immediately query the service with the input stock symbols and add the results to the beginning of the table.
